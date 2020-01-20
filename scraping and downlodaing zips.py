@@ -26,8 +26,8 @@ def download(url):
 
 def main_dowmload():
     file = 'urlfile.txt'
-    os.makedirs('E:/Log/Data',exist_ok=True)
-    os.chdir('E:/Log/Data')
+    os.makedirs(r'C:\Users\CH.4644\Desktop\zip',exist_ok=True)
+    os.chdir(r'C:\Users\CH.4644\Desktop\zip')
     
     for url in get_url_list(file):
         download(url)
